@@ -1,4 +1,4 @@
-package com.viewbinding.fragment;
+package com.viewbinding.base;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

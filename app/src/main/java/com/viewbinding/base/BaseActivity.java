@@ -1,4 +1,4 @@
-package com.viewbinding;
+package com.viewbinding.base;
 
 import android.os.Build;
 import android.os.Bundle;

@@ -3,6 +3,7 @@ package com.viewbinding.fragment;
 import android.os.Bundle;
 import android.view.View;
 
+import com.viewbinding.base.BaseFragment;
 import com.viewbinding.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends BaseFragment<FragmentHomeBinding> {

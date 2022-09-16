@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -21,15 +22,23 @@
         android:layout_height="0.5dp"
         android:layout_marginTop="15dp"
         android:background="@color/colorPrimary"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:visibility="visible"
+        android:layout_weight="1.0" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="30dp">
+        android:layout_height="50dp">
 
         <TextView
             android:id="@+id/home"
             android:layout_width="0.0dp"
-            android:layout_height="30dp"
+            android:layout_height="50dp"
             android:layout_weight="1.0"
             android:gravity="center_horizontal|center_vertical"
             android:textSize="15sp"
@@ -44,7 +53,7 @@
         <TextView
             android:id="@+id/user"
             android:layout_width="0.0dp"
-            android:layout_height="30dp"
+            android:layout_height="50dp"
             android:layout_weight="1.0"
             android:gravity="center_horizontal|center_vertical"
             android:textSize="15sp"
@@ -57,12 +66,5 @@
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:background="@color/colorPrimary"/>
-
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="visible" />
-
 
 </LinearLayout>

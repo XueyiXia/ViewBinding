@@ -1,4 +1,4 @@
-package com.viewbinding;
+package com.viewbinding.activities;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -7,6 +7,8 @@ import android.view.View;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.viewbinding.R;
+import com.viewbinding.base.BaseActivity;
 import com.viewbinding.databinding.ActivityMainBinding;
 import com.viewbinding.fragment.HomeFragment;
 import com.viewbinding.fragment.UserFragment;

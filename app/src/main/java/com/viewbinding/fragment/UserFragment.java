@@ -3,8 +3,11 @@ package com.viewbinding.fragment;
 import android.os.Bundle;
 import android.view.View;
 
+import com.viewbinding.base.BaseFragment;
+import com.viewbinding.databinding.FragmentUserBinding;
 
-public class UserFragment extends BaseFragment<com.viewbinding.databinding.FragmentUserBinding> {
+
+public class UserFragment extends BaseFragment<FragmentUserBinding> {
 
 
     @Override
